@@ -28,8 +28,6 @@ public class CompareMapping {
 		if (nodeMapSolution == null) {
 			System.out.println("");
 			System.out.println("算法2节点映射失败");
-			System.out.println(node_req);
-			System.out.println(C);
 			System.out.println("");
 			return null;
 		}

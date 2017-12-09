@@ -128,7 +128,7 @@ public class RandomMapping {
 			} else {
 				// 完成映射
 				while (true) {
-					int j = (random.nextInt(5 * bound)) % I;//////////////////////// 参数3可以调整
+					int j = (random.nextInt(100 * bound)) % I;//////////////////////// 参数3可以调整
 					for (int h = 0; h < H; h++) {
 						if (CC.get(j * H + 1 + h) != Integer.MAX_VALUE && CC.get(j * H + 1 + h) >= node_req.get(k)) {
 							nodeMapSolution.set(k, j * H + 1 + h);
